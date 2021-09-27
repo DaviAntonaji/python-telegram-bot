@@ -16,5 +16,5 @@ obj = {
     "chat_id": CHAT_ID
 }
 
-x = requests.post(URL, data = myobj)
+x = requests.post(URL, data = obj)
 print("OK")
